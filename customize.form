@@ -1,0 +1,10 @@
+$type: form
+properties:
+  showAvatars:
+    type: boolean
+    title: Show Avatars
+    xtype: toggle
+    name: showAvatars
+    default: true
+rules: []
+$meta: {}

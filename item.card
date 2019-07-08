@@ -1,0 +1,32 @@
+$type: card
+properties:
+  view1:
+    type: element
+    title: View
+    xtype: at-core-view
+    view: |-
+      <div class="layout-horizontal layout-center">
+      	{% if showAvatar %}
+      		<iron-image src="{{ picture }}" style="width:60px; height:60px; background-color: lightgray;" sizing="cover" preload></iron-image>
+      	{% endif %}
+      	<div class="m">
+      		{{ title }}
+      	</div>
+      </div>
+$meta:
+  cardId: 
+  preview-mode: static
+  preview-container: item
+  search-term: 
+  service-url: 
+  preview-data: |-
+    {
+      "title": "abc"
+    }
+  xclass: 
+  xstyle: 
+  code: |-
+    action.initialize = function(evt) {
+      //debugger;
+    }
+rules: []
